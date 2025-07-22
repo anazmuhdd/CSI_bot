@@ -1,0 +1,5 @@
+.env
+auth_info_baileys
+node_modules
+package-lock.json
+package.json

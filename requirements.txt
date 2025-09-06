@@ -1,6 +1,5 @@
 flask
 langchain
-geminillm
 langchain-community
 langchain-core
 langchain-ollama

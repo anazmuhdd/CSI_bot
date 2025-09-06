@@ -1,12 +1,9 @@
 flask
 langchain
-re
 geminillm
 langchain-community
 langchain-core
 langchain-ollama
-discords
+discord
 requests
-asyncio
-os
-dotenv
+google-generativeai

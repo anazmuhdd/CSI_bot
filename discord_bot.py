@@ -2,10 +2,13 @@
 import discord
 import requests
 import asyncio
+import os
+from dotenv import load_dotenv
 
-TOKEN = ""  # Replace with your actual bot token
-FLASK_BACKEND_URL = "http://127.0.0.1:5001/process" 
-
+load_dotenv()
+TOKEN = os.getenv("DISCORD_TOKEN")  # Replace with your actual bot token
+FLASK_BACKEND_URL = "http://127.0.0.1:5001/process"
+print(f"Using Discord Token: {TOKEN}")
 intents = discord.Intents.default()
 intents.messages = True
 intents.message_content = True

@@ -1,5 +1,12 @@
 flask
 langchain
+re
+geminillm
 langchain-community
 langchain-core
 langchain-ollama
+discords
+requests
+asyncio
+os
+dotenv

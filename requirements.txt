@@ -6,3 +6,4 @@ langchain-ollama
 discord
 requests
 google-generativeai
+gunicorn
